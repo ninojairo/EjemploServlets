@@ -39,13 +39,13 @@ public class MiServlet extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Servlet MiServlet at " + request.getContextPath() + "</h1>");
-            String forma = "<form action=\"/EjemploServlets/MiServlet\" method=\"POST\">\n" +
+            /*String forma = "<form action=\"/EjemploServlets/MiServlet\" method=\"POST\">\n" +
 "            First Name: <input type=\"text\" name=\"fname\"/><br>\n" +
 "            Last Name:<input type=\"text\" name=\"lname\"/><br>\n" +
 "            <input type=\"submit\" value=\"Submit\"/>\n" +
 "        </form>";
             
-            out.println(forma);
+            out.println(forma);*/
             out.println("</body>");
             out.println("</html>");
         }
