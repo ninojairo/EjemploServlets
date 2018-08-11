@@ -4,9 +4,17 @@
         <servlet-name>MiServlet</servlet-name>
         <servlet-class>com.itfactoria.ejemploservlets.MiServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <servlet-class>com.itfactoria.ejemploservlets.WelcomeServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MiServlet</servlet-name>
         <url-pattern>/MiServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>WelcomeServlet</servlet-name>
+        <url-pattern>/WelcomeServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
